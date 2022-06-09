@@ -1,5 +1,3 @@
-![logo](./img/logo.png)
-
 # VPS SDK (Unity3D)
 
 This is **Visual Positioning System** SDK for Unity3D engine. Main features are:
@@ -8,7 +6,7 @@ This is **Visual Positioning System** SDK for Unity3D engine. Main features are:
 - Supports Android and iOS target platforms
 - Integration in ARFoundation (ARCore and ARKit)
 
-For more information visit [our page on SmartMarket](https://developers.sber.ru/portal/tools/visual-positioning-system-sdk). If you want access to other VPS locations or want to scan your own property, please contact us at <arvrlab@sberbank.ru>.
+If you want access to other VPS locations or want to scan your own property, please contact us at <info@naviar.io>.
 
 ## Requirements
 
@@ -21,7 +19,7 @@ Just clone this repository. Requires installed [Git-LFS](https://git-lfs.github.
 
 You can also add git URL to the **Unity Package Manager** UI in your project dependencies:
 ```
-https://github.com/sberdevices/vps-sdk-unity.git?path=/Assets
+https://github.com/naviar-io/vps-sdk-unity.git?path=/Assets
 ```
 
 ## Examples
@@ -53,7 +51,5 @@ You can adjust VPS behaviour by changing public properties in the `VPSLocalisati
 | **Save Images Localy** | Save sent images and meta in streaming assets folder (used for debag) | false |
 
 ## License 
-
-This project is licensed under [Sber Public License at-nc-sa v.2](LICENSE).
 
 TensorFlow library is licensed under [Apache License 2.0.](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)
